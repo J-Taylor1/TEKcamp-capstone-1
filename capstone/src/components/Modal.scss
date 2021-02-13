@@ -1,0 +1,35 @@
+.MODAL_STYLES {
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50% , -50%);
+    background-color:#D3D3D3;
+    padding: 10rem;
+    z-index: 1000;
+}
+
+.OVERLAY_STYLES {
+    position: fixed;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+    z-index: 1000;
+}
+
+.Modal-info {
+    text-align: center;
+}
+
+.modal-bio{
+    text-align: center;
+}
+img {
+    width: 100%;
+    max-height: 20rem;
+    object-fit: contain;
+    margin-bottom: 1.5rem;
+}

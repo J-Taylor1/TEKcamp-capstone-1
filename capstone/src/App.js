@@ -1,4 +1,5 @@
 import React from 'react';
+
 import {Switch,Route} from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -20,14 +21,19 @@ function App() {
         <Switch>
           <Route exact path='/'>
             <Homepage/>
+            <Footer/>
           </Route>
           <Route path='/shop'>
             <Main/>
-            <div><h2>hetath</h2></div>
+            <Footer/>
+          </Route>
+          <Route path='/cart'>
+            <Checkout/>
+
           </Route>
         </Switch>
       </div>
-      <Footer/>
+      
    </div>
   );
 }

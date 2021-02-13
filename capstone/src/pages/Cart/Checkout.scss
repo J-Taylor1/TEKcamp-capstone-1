@@ -1,0 +1,12 @@
+.checkout {
+    display: flex;
+    padding: 2rem;
+    background-color: rgb(224, 223, 223);
+    height: calc(100% - 6.5rem);
+}
+
+.checkout-title {
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px solid rgb(156, 119, 119);
+}

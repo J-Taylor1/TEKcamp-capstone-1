@@ -1,0 +1,21 @@
+.home{
+    height: 100%;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.home-row{
+    display:flex;
+    z-index: 1;
+    margin-right: .5rem;
+    margin-left: .5rem;
+}
+
+.search {
+    text-align: center;
+    font-size: 5rem;
+    margin: 3rem;
+}
+
