@@ -17,6 +17,7 @@ function Main() {
             {myData.slice(0, 3).map((product, i) => (
                 <Product
                   key={i}
+                  id={product.id}
                   artist={product.artist}
                   title={product.title}
                   price={product.price}

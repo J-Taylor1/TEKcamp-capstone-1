@@ -4,7 +4,7 @@
     max-height: 40rem;
     min-width: 10rem;
     margin: 1rem;
-    background-color: bisque;
+    background-color: rgb(255, 208, 196);
     z-index: 1;
     width: 100%;
     padding: 2rem;
@@ -28,7 +28,10 @@
 }
 
 .product > button {
-    background-color: #f0c14b;
+    background-color: #f04b4b;
     border: .1rem solid;
-    border-color: #a88734 #9c7e31 #846a29;
+    border-color: #a83434 #9c3131 #842929;
+    // border-color: #a88734 #9c7e31 #846a29;
+    
 }
+
