@@ -29,6 +29,7 @@ function Checkout() {
                                     genre={product.genre}
                                     img={product.img}
                                     price={product.price}
+                                    count={product.count}
                                 />
                             ))
                         }

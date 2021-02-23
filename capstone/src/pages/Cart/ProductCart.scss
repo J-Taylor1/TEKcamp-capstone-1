@@ -26,3 +26,26 @@
     border-color: #a83434 #9c3131 #842929;
     margin-top: 1rem;
 }
+
+.amount span{
+    color: crimson;
+    padding: 0 20px;
+}
+
+.amount .countp{
+    width:4rem;
+    height:3rem;
+    border: 1px solid #555;
+    outline:none;
+    background: rgb(29, 206, 29);
+    cursor: pointer;
+}
+
+.amount .countn{
+    width:4rem;
+    height:3rem;
+    border: 1px solid #555;
+    outline:none;
+    background: rgb(206, 29, 29);
+    cursor: pointer;
+}

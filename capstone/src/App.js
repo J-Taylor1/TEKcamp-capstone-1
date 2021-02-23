@@ -25,11 +25,10 @@ function App() {
           </Route>
           <Route path='/shop'>
             <Main/>
-            <Footer/>
           </Route>
           <Route path='/cart'>
             <Checkout/>
-
+            <Footer/>
           </Route>
         </Switch>
       </div>

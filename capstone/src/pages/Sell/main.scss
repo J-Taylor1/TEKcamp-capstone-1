@@ -1,16 +1,17 @@
 .home{
     height: 100%;
-    width:100%;
-    margin-left: auto;
+    // width:100%;
+    margin-left: 50rem;
     margin-right: auto;
-    
+    display:flex;
 }
 
 .home-row{
-    display:flex;
+    flex-direction: row;
     z-index: 1;
     margin-right: .5rem;
     margin-left: .5rem;
+    flex-basis: 50%;
 }
 
 .search {

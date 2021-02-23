@@ -6,10 +6,8 @@ import {useStateValue} from './StateProvider';
 
 
 
-function Product({id, track ,genre,img,price,artist,title,year,label,country,qty}){
-    const myData = Vinyl;
-    console.log(myData);
-    // const vinyl = Vinyl.find(item => item.id == props.match.params.id)  
+function Product({id, track ,genre,img,price,artist,title,year,label,country,qty,count}){
+    
 const [{cart}, dispatch] = useStateValue()
     const addToBasket = () => {
         dispatch({
@@ -20,10 +18,12 @@ const [{cart}, dispatch] = useStateValue()
             title: title,
             genre: genre,
             price: price,
-            img: img
+            img: img,
+            qty: qty,
         }
         })
     }
+    
     const[isOpen,setIsOpen] = useState(false)
     return(
         <div className="product">
@@ -36,7 +36,6 @@ const [{cart}, dispatch] = useStateValue()
                 </p>
                 <div className="product-genre">
                     <small>Genre: {genre}</small>
-                    <p><small>Amt: {qty}</small></p>
                 </div>
             </div>
             <img src={img} alt="test"  onClick={() => setIsOpen(true)}/>
@@ -57,10 +56,6 @@ const [{cart}, dispatch] = useStateValue()
                   qty={qty}
                   track={track}
                 />
-                
-                
-               
-             
         </div>
         
 );

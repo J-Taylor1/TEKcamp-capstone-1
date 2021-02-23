@@ -10,8 +10,6 @@ function NavBar() {
             <ul>
                 <Link to="/main" className="navb">Records</Link>
                 <Link to="/checkout" className="navb">Checkout</Link>
-                {/* <Link to=""></Link> */}
-                {/* <Link to=""></Link> */}
             </ul>
         </nav>
     )
